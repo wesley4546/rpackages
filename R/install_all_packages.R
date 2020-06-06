@@ -12,7 +12,7 @@ install_all_packages <- function(){
   #List of packages
    package_list <-
     c("tidyverse","ggplot2","janitor","here","devtools","usethis","roxygen2",
-      "stringr","tidytext","lubridate","tidyr","patchwork","stm","furr",
+      "stringr","tidytext","lubridate","tidyr","patchwork","stm","furrr",
       "wordcloud","styler","testthat")
 
   install.packages(package_list)
